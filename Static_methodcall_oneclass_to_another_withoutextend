@@ -1,0 +1,38 @@
+public class Anto
+{
+static void display()
+{
+System.out.println("Hello I Am Anto");
+
+}
+static void dis()
+{
+System.out.println("Hello I Am Yasin");
+
+}
+public static void main(String args[])
+{
+Yasin.print();
+display();
+}
+
+}
+
+
+public class Yasin
+{
+static void print()
+{
+
+System.out.println("hi");
+
+}
+public static void main(String args[])
+{
+print();
+Anto.dis();
+
+
+}
+
+}
