@@ -1,0 +1,27 @@
+public class Vb 
+{
+static int add(int a,int b)
+{
+int c=a+b;
+System.out.println(c);
+return c;
+
+}
+int sub(int a,int b)
+{
+int c=a-b;
+System.out.println(c);
+return c; 
+
+}
+
+public static void main(String args[])
+{
+Vb obj=new Vb();
+obj.sub(10,5);
+add(10,5);
+
+}
+
+
+}
